@@ -1,0 +1,72 @@
+* {
+  transition: all 0.5s ease-in-out;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 96vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-footer {
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 60%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  height: 70px;
+  width: 70px;
+}
+
+.left {
+  float: left;
+  margin: 0px 10px;
+}
+
+.right {
+  float: right;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+#quote-box {
+  max-width: 70%;
+  min-width: 60%;
+  background-color: whitesmoke;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  opacity: 90%;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .right p {
+    font-size: 11px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+}
