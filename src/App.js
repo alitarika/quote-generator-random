@@ -117,7 +117,7 @@ function App() {
         </div>
       </header>
       <footer className="App-footer">
-        <p>by cathexisDev</p>
+        <p>by alitarika</p>
       </footer>
     </div>
   );
